@@ -7,9 +7,9 @@ if($username=="admin" && $password=="1234"){
 	$_SESSION['uname'] = $username;		
 	?><script> document.location.href='index.php'</script><?php
 }else{
-	$conn = mysql_connect('localhost', 'root', 'root') or die('Error connecting to mysql');
+	$conn = mysql_connect('db01-share', 'Custom App-9566', 'root') or die('Error connecting to mysql');
 	
-	$db_selected = mysql_select_db("come519", $conn);
+	$db_selected = mysql_select_db("eventoxicated-phpfogapp-com", $conn);
 	if (!$db_selected){ 
 		die ("Can\'t use test_db : " . mysql_error()); }   
 	

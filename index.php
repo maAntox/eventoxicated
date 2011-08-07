@@ -47,9 +47,21 @@
 			?>
 		</div>
     </section>  
-	<footer>  
-        This is the footer, :P
-    </footer>  
+	<footer id="footer">
+	        <div class="pie-clearfix wrapper">
+	          <nav>
+	            <ul class="pie-clearfix">
+	              <li><a href="http://getcloudapp.com/download/">Application</a></li>
+	              <li><a href="http://store.getcloudapp.com/">About Us</a></li>
+	              <li><a href="http://help.getcloud.me/">Help</a></li>
+	            </ul>
+	          </nav>
+
+	          <p>
+	            &copy;2011 ComE 519 - Eventoxicated
+	          </p>
+	        </div>
+	      </footer>
   
 </body>  
 </html>  
